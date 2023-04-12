@@ -11,10 +11,10 @@ import SignIn from "views/auth/SignIn";
 // Icon Imports
 import {
   MdHome,
-  MdOutlineShoppingCart,
   MdBarChart,
   MdPerson,
   MdLock,
+  MdExplore
 } from "react-icons/md";
 import { BsFileEarmarkTextFill } from "react-icons/bs";
 
@@ -30,7 +30,7 @@ const routes = [
     name: "Landing Page",
     layout: "/admin",
     path: "landing",
-    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+    icon: <MdExplore className="h-6 w-6" />,
     component: <NFTMarketplace />,
     secondary: true,
   },
