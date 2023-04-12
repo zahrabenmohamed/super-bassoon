@@ -2,7 +2,6 @@ import React from "react";
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
-import NFTMarketplace from "views/admin/marketplace";
 import DataTables from "views/admin/tables";
 
 // Auth Imports
@@ -31,7 +30,6 @@ const routes = [
     layout: "/admin",
     path: "landing",
     icon: <MdExplore className="h-6 w-6" />,
-    component: <NFTMarketplace />,
     secondary: true,
   },
   {
