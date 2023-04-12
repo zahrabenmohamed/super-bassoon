@@ -3,7 +3,6 @@ import Dropdown from "components/dropdown";
 import { FiAlignJustify } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import navbarimage from "assets/img/layout/Navbar.png";
-import { BsArrowBarUp } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
 import {
@@ -84,9 +83,6 @@ const Navbar = (props) => {
               </div>
 
               <button className="flex w-full items-center">
-                <div className="flex h-full w-[85px] items-center justify-center rounded-xl bg-gradient-to-b from-brandLinear to-brand-500 py-4 text-2xl text-white">
-                  <BsArrowBarUp />
-                </div>
                 <div className="ml-2 flex h-full w-full flex-col justify-center rounded-lg px-1 text-sm">
                   <p className="mb-1 text-left text-base font-bold text-gray-900 dark:text-white">
                     New Update: Horizon UI Dashboard PRO
@@ -98,9 +94,7 @@ const Navbar = (props) => {
               </button>
 
               <button className="flex w-full items-center">
-                <div className="flex h-full w-[85px] items-center justify-center rounded-xl bg-gradient-to-b from-brandLinear to-brand-500 py-4 text-2xl text-white">
-                  <BsArrowBarUp />
-                </div>
+               
                 <div className="ml-2 flex h-full w-full flex-col justify-center rounded-lg px-1 text-sm">
                   <p className="mb-1 text-left text-base font-bold text-gray-900 dark:text-white">
                     New Update: Horizon UI Dashboard PRO
